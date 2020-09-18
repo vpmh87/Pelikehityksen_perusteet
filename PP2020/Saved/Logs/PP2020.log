@@ -3984,3 +3984,45 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.18-15.47.51:320][992]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F8D1F6000), frame # 534992
 [2020.09.18-15.47.51:322][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
 [2020.09.18-15.47.51:363][995]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2020.09.18-15.57.50:101][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.09.18-15.57.50:102][853]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GameLevel001' took 0.015
+[2020.09.18-16.00.42:653][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.18-16.00.42:663][543]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/GameLevel001310993164D0FEE96C7A6D088BC6A45A1.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Levels/GameLevel001.umap'
+[2020.09.18-16.00.42:758][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/GameLevel001_BuiltData" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Levels/GameLevel001_BuiltData.uasset" SILENT=true
+[2020.09.18-16.00.42:769][543]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/GameLevel001_BuiltData77C683C247C7A9C7928DC299C54F629F.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Levels/GameLevel001_BuiltData.uasset'
+[2020.09.18-16.00.42:777][543]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.18-16.00.42:777][543]LogContentValidation: Display: Validating World /Game/Levels/GameLevel001.GameLevel001
+[2020.09.18-16.00.42:777][543]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/GameLevel001_BuiltData.GameLevel001_BuiltData
+[2020.09.18-16.00.44:372][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.09.18-16.00.50:566][729]LogSlate: Window 'Save Content' being destroyed
+[2020.09.18-16.00.56:105][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.09.18-16.00.56:436][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/SleepingKirby_6x10" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/SleepingKirby_6x10.uasset" SILENT=true
+[2020.09.18-16.00.56:452][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x106090EBF34966F7888DFDA399B4638522.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/SleepingKirby_6x10.uasset'
+[2020.09.18-16.00.56:637][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/LollipopChuba0001" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/LollipopChuba0001.uasset" SILENT=true
+[2020.09.18-16.00.56:685][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/LollipopChuba000163C9AFDD4DF7708F7AD9918D56246195.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/LollipopChuba0001.uasset'
+[2020.09.18-16.00.56:870][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/LollipopWhirl0001" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/LollipopWhirl0001.uasset" SILENT=true
+[2020.09.18-16.00.56:923][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/LollipopWhirl00014E02CC1E4752499A792AABBA4ADDA0B3.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/LollipopWhirl0001.uasset'
+[2020.09.18-16.00.57:147][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/MarshmallowWhirl01000193FE08D042B31DC374C563A0EB9F03B0.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Textures/MarshmallowWhirl010001.uasset'
+[2020.09.18-16.00.57:337][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/jumping-sfx" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sounds/jumping-sfx.uasset" SILENT=true
+[2020.09.18-16.00.57:338][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/jumping-sfxF37A96284D13B2C1ADD20FBDF26772BC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sounds/jumping-sfx.uasset'
+[2020.09.18-16.00.57:508][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/GentleBackgroundMusic" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sounds/GentleBackgroundMusic.uasset" SILENT=true
+[2020.09.18-16.00.57:511][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/GentleBackgroundMusic16F8D6104E23A5046A29CE9F73CDC756.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sounds/GentleBackgroundMusic.uasset'
+[2020.09.18-16.00.58:121][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/CandyColouredClown" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Fonts/CandyColouredClown.uasset" SILENT=true
+[2020.09.18-16.00.58:122][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/CandyColouredClown7D5250AD43A0EA5DFF0A26A89C421F3C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Fonts/CandyColouredClown.uasset'
+[2020.09.18-16.00.58:292][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/CandyColouredClown_Font" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Fonts/CandyColouredClown_Font.uasset" SILENT=true
+[2020.09.18-16.00.58:293][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/CandyColouredClown_FontF4EE82554C68144D8A2B89AE21AADCAA.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Fonts/CandyColouredClown_Font.uasset'
+[2020.09.18-16.00.58:449][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Ground" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Materials/Ground.uasset" SILENT=true
+[2020.09.18-16.00.58:453][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Ground5F58B6324407EDAA1404FE8BADAD6FA6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Materials/Ground.uasset'
+[2020.09.18-16.00.58:454][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gamemode2D" FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Blueprints/Gamemode2D.uasset" SILENT=true
+[2020.09.18-16.00.58:459][352]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Gamemode2DF90EF1704CC3AE2929CC4E886B3B5B19.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Blueprints/Gamemode2D.uasset'
+[2020.09.18-16.00.58:490][352]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.18-16.00.58:490][352]LogContentValidation: Display: Validating Texture2D /Game/Textures/SleepingKirby_6x10.SleepingKirby_6x10
+[2020.09.18-16.00.58:490][352]LogContentValidation: Display: Validating Texture2D /Game/Textures/LollipopChuba0001.LollipopChuba0001
+[2020.09.18-16.00.58:490][352]LogContentValidation: Display: Validating Texture2D /Game/Textures/LollipopWhirl0001.LollipopWhirl0001
+[2020.09.18-16.00.58:490][352]LogContentValidation: Display: Validating Texture2D /Game/Textures/MarshmallowWhirl010001.MarshmallowWhirl010001
+[2020.09.18-16.00.58:490][352]LogContentValidation: Display: Validating SoundWave /Game/Sounds/jumping-sfx.jumping-sfx
+[2020.09.18-16.00.58:491][352]LogContentValidation: Display: Validating SoundWave /Game/Sounds/GentleBackgroundMusic.GentleBackgroundMusic
+[2020.09.18-16.00.58:491][352]LogContentValidation: Display: Validating FontFace /Game/Fonts/CandyColouredClown.CandyColouredClown
+[2020.09.18-16.00.58:491][352]LogContentValidation: Display: Validating Font /Game/Fonts/CandyColouredClown_Font.CandyColouredClown_Font
+[2020.09.18-16.00.58:491][352]LogContentValidation: Display: Validating Material /Game/Materials/Ground.Ground
+[2020.09.18-16.00.58:491][352]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gamemode2D.Gamemode2D
