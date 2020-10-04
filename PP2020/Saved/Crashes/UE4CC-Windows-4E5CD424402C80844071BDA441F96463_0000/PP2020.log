@@ -1,0 +1,1926 @@
+﻿Log file open, 10/04/20 18:37:36
+LogInit: Display: Running engine for game: PP2020
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.171781
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Zaetes -epicuserid=e5104a93d8d947f8b4f12650e0620195 -epiclocale=en
+LogInit: Base Directory: D:/Ohjelmat/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.04-15.37.36:669][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.04-15.37.36:669][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.04-15.37.36:669][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.04-15.37.36:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:670][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:672][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.04-15.37.36:672][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.04-15.37.36:673][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.04-15.37.36:674][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.04-15.37.36:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.04-15.37.36:674][  0]LogHAL: Display: Platform has ~ 16 GB [17083437056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.04-15.37.36:674][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.04-15.37.36:674][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.04-15.37.36:674][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.04-15.37.36:675][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Scalability.ini]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.04-15.37.36:676][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Config/Windows/Engine.ini]
+[2020.10.04-15.37.36:676][  0]LogInit: Computer: DESKTOP-66GR3FO
+[2020.10.04-15.37.36:676][  0]LogInit: User: VPMH
+[2020.10.04-15.37.36:676][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.10.04-15.37.36:676][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.04-15.37.36:677][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.04-15.37.36:677][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.04-15.37.36:677][  0]LogMemory: Process Physical Memory: 115.33 MB used, 115.34 MB peak
+[2020.10.04-15.37.36:677][  0]LogMemory: Process Virtual Memory: 98.09 MB used, 98.09 MB peak
+[2020.10.04-15.37.36:677][  0]LogMemory: Physical Memory: 10341.75 MB used,  5950.29 MB free, 16292.04 MB total
+[2020.10.04-15.37.36:677][  0]LogMemory: Virtual Memory: 5150.55 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.10.04-15.37.36:682][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.04-15.37.36:707][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.04-15.37.36:708][  0]LogInit: Using OS detected language (fi-FI).
+[2020.10.04-15.37.36:708][  0]LogInit: Using OS detected locale (fi-FI).
+[2020.10.04-15.37.36:709][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the language.
+[2020.10.04-15.37.36:841][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.04-15.37.36:864][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.04-15.37.36:864][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.04-15.37.36:980][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.04-15.37.36:981][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.04-15.37.36:981][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.04-15.37.36:981][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.04-15.37.37:063][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2020.10.04-15.37.37:063][  0]LogD3D11RHI:       8031/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.04-15.37.37:065][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.04-15.37.37:065][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.04-15.37.37:065][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.04-15.37.37:083][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.04-15.37.37:083][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.04-15.37.37:083][  0]LogWindows: EnumDisplayDevices:
+[2020.10.04-15.37.37:083][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2020.10.04-15.37.37:083][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.10.04-15.37.37:084][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.10.04-15.37.37:084][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.10.04-15.37.37:084][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.04-15.37.37:084][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2020.10.04-15.37.37:084][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.10.04-15.37.37:084][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.10.04-15.37.37:084][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.10.04-15.37.37:133][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.04-15.37.37:135][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.04-15.37.37:135][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.04-15.37.37:135][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.04-15.37.37:149][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.04-15.37.37:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.04-15.37.37:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.04-15.37.37:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.04-15.37.37:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.04-15.37.37:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.04-15.37.37:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.04-15.37.37:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.04-15.37.37:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.04-15.37.37:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.04-15.37.37:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.04-15.37.37:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.04-15.37.37:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.04-15.37.37:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.04-15.37.37:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.04-15.37.37:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.04-15.37.37:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.04-15.37.37:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.04-15.37.37:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.04-15.37.37:533][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.04-15.37.37:533][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.04-15.37.37:539][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.04-15.37.37:587][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Intermediate/Shaders/WorkingDirectory/27444/).
+[2020.10.04-15.37.37:587][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/VPMH/AppData/Local/Temp/UnrealShaderWorkingDir/1CCD197F459BAB97320ACC82B6D322D7/'.
+[2020.10.04-15.37.37:587][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.04-15.37.37:587][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.04-15.37.37:587][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.04-15.37.38:227][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/VPMH/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/VPMH/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.04-15.37.38:272][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.04-15.37.38:281][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.04-15.37.38:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.04-15.37.38:281][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.04-15.37.38:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VPMH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.04-15.37.38:282][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.04-15.37.38:282][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.04-15.37.38:324][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.04-15.37.38:325][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.04-15.37.38:343][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.10.04-15.37.38:529][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.04-15.37.38:656][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.04-15.37.38:656][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.04-15.37.38:656][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.04-15.37.38:656][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.04-15.37.38:656][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.04-15.37.38:670][  0]LogNetVersion: PP2020 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2937100563)
+[2020.10.04-15.37.39:005][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019F75D45B80), frame # 0
+[2020.10.04-15.37.39:005][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F75CB4680), frame # 0
+[2020.10.04-15.37.39:006][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F75D10A00), frame # 0
+[2020.10.04-15.37.39:068][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.057730 seconds
+[2020.10.04-15.37.39:074][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.04-15.37.39:074][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.04-15.37.39:074][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.04-15.37.39:376][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.04-15.37.39:380][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.04-15.37.39:440][  0]SourceControl: Source control is disabled
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: CreateProc failed: Määritettyä tiedostoa ei löydy. (0x00000002)
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: CreateProc failed: Määritettyä tiedostoa ei löydy. (0x00000002)
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: CreateProc failed: Määritettyä tiedostoa ei löydy. (0x00000002)
+[2020.10.04-15.37.39:469][  0]LogWindows: Warning: URL: C:\Users\VPMH\AppData\Local/Programs/Git/cmd/git.exe version
+[2020.10.04-15.37.39:470][  0]LogWindows: Warning: CreateProc failed: Määritettyä tiedostoa ei löydy. (0x00000002)
+[2020.10.04-15.37.39:470][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2020.10.04-15.37.39:470][  0]LogWindows: Warning: CreateProc failed: Määritettyä tiedostoa ei löydy. (0x00000002)
+[2020.10.04-15.37.39:470][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2020.10.04-15.37.40:175][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.04-15.37.40:176][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.04-15.37.40:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.04-15.37.40:383][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.04-15.37.40:383][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.04-15.37.40:422][  0]LogOcInput: OculusInput pre-init called
+[2020.10.04-15.37.40:431][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.04-15.37.40:431][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.04-15.37.40:486][  0]LogEngine: Initializing Engine...
+[2020.10.04-15.37.40:491][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.04-15.37.40:491][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.04-15.37.40:492][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.04-15.37.40:581][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.04-15.37.40:591][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.04-15.37.40:591][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F776F3C00), frame # 0
+[2020.10.04-15.37.40:591][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F77769800), frame # 0
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.04-15.37.40:596][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.04-15.37.40:596][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.04-15.37.40:596][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.04-15.37.40:605][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.04-15.37.40:605][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.04-15.37.40:632][  0]LogAudioMixer: Display: Using Audio Device Kaiuttimet (2–GXT 383 Gaming Headset)
+[2020.10.04-15.37.40:634][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.04-15.37.40:636][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.04-15.37.40:636][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.04-15.37.40:637][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.04-15.37.40:637][  0]LogInit: FAudioDevice initialized.
+[2020.10.04-15.37.40:638][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.04-15.37.40:750][  0]LogDerivedDataCache: Saved boot cache 0.11s 75MB C:/Users/VPMH/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.04-15.37.40:750][  0]LogInit: Texture streaming: Enabled
+[2020.10.04-15.37.40:763][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.04-15.37.40:763][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.04-15.37.40:766][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.04-15.37.40:825][  0]LogInit: Transaction tracking system initialized
+[2020.10.04-15.37.40:844][  0]BlueprintLog: New page: Editor Load
+[2020.10.04-15.37.40:902][  0]LocalizationService: Localization service is disabled
+[2020.10.04-15.37.40:971][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.04-15.37.40:972][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.04-15.37.41:058][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.04-15.37.41:058][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.04-15.37.41:161][  0]LogFileCache: Scanning file cache for directory 'D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/' took 0.00s
+[2020.10.04-15.37.41:301][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.152
+[2020.10.04-15.37.41:301][  0]Cmd: MAP LOAD FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.04-15.37.41:330][  0]LightingResults: New page: Lighting Build
+[2020.10.04-15.37.41:331][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.04-15.37.41:331][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.04-15.37.41:331][  0]MapCheck: New page: Map Check
+[2020.10.04-15.37.41:331][  0]LightingResults: New page: Lighting Build
+[2020.10.04-15.37.41:344][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019F776F3C00), frame # 0
+[2020.10.04-15.37.41:344][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019F77769800), frame # 0
+[2020.10.04-15.37.41:345][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.04-15.37.41:554][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.04-15.37.41:554][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F00E77E00), frame # 0
+[2020.10.04-15.37.41:554][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F00E9DD00), frame # 0
+[2020.10.04-15.37.41:555][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.04-15.37.41:564][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.04-15.37.41:564][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.04-15.37.41:565][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,063ms to complete.
+[2020.10.04-15.37.41:565][  0]LogFileHelpers: Loading map 'MainMenu' took 0.264
+[2020.10.04-15.37.41:575][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.426
+[2020.10.04-15.37.42:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.04-15.37.42:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.04-15.37.42:019][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.04-15.37.42:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.04-15.37.42:081][  0]LogCollectionManager: Loaded 0 collections in 0.001247 seconds
+[2020.10.04-15.37.42:246][  0]LogFileCache: Scanning file cache for directory 'D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/Collections/' took 0.00s
+[2020.10.04-15.37.42:246][  0]LogFileCache: Scanning file cache for directory 'D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Developers/VPMH/Collections/' took 0.00s
+[2020.10.04-15.37.42:246][  0]LogFileCache: Scanning file cache for directory 'D:/Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Collections/' took 0.00s
+[2020.10.04-15.37.42:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3427 classes and 821 folders.
+[2020.10.04-15.37.42:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.04-15.37.43:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.04-15.37.43:238][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.10.04-15.37.43:734][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.04-15.37.43:738][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.04-15.37.43:756][  0]LogSlate: Took 0.007535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.04-15.37.43:979][  0]LogRenderer: Reallocating scene render targets to support 1768x992 Format 10 NumSamples 1 (Frame:1).
+[2020.10.04-15.37.44:128][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.04-15.37.44:128][  0]LogLoad: (Engine Initialization) Total time: 8.98 seconds
+[2020.10.04-15.37.44:128][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.04-15.37.44:159][  0]LogAssetRegistry: Asset discovery search completed in 5.8176 seconds
+[2020.10.04-15.37.44:162][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.04-15.37.44:211][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.04-15.37.48:145][423]LogSlate: Took 0.012648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.04-15.37.49:517][423]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/GameLevel001.GameLevel001
+[2020.10.04-15.37.49:569][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.04-15.37.49:570][423]Cmd: MAP LOAD FILE="../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Levels/GameLevel001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.04-15.37.49:570][423]LightingResults: New page: Lighting Build
+[2020.10.04-15.37.49:570][423]LoadErrors: New page: Loading map: GameLevel001.umap
+[2020.10.04-15.37.49:596][423]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.04-15.37.49:596][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.04-15.37.49:596][423]MapCheck: New page: Map Check
+[2020.10.04-15.37.49:596][423]LightingResults: New page: Lighting Build
+[2020.10.04-15.37.49:607][423]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019F00E77E00), frame # 423
+[2020.10.04-15.37.49:607][423]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019F00E9DD00), frame # 423
+[2020.10.04-15.37.49:608][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.04-15.37.49:665][423]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.04-15.37.49:665][423]LogAIModule: Creating AISystem for world GameLevel001
+[2020.10.04-15.37.49:665][423]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F2F812C00), frame # 423
+[2020.10.04-15.37.49:665][423]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F2ED747C0), frame # 423
+[2020.10.04-15.37.49:675][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.04-15.37.49:694][423]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.04-15.37.49:695][423]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,059ms to complete.
+[2020.10.04-15.37.49:695][423]LogFileHelpers: Loading map 'GameLevel001' took 0.125
+[2020.10.04-15.38.35:477][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_0394D490A4A234513EEE6608C59600948.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_0.uasset'
+[2020.10.04-15.38.35:869][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_00EBD6BAF45448DDCBE3E90B1B6EF286B.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_0.uasset'
+[2020.10.04-15.38.35:886][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_112034E3B4D66E9EC0326A698A572C57E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_1.uasset'
+[2020.10.04-15.38.36:058][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_1C3773BA547AE6AB818B5EC9CEE202B48.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_1.uasset'
+[2020.10.04-15.38.36:067][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_2A388E057488A1355E5CBD7866B3B5EFF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_2.uasset'
+[2020.10.04-15.38.36:209][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_216B8E126471DBCB33194F8BC46DC171C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_2.uasset'
+[2020.10.04-15.38.36:220][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_39820E77B43B7CA9714EFA4BB119B6F56.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_3.uasset'
+[2020.10.04-15.38.36:359][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_34205A09A4BEE421CBFA4A1AB564F1E78.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_3.uasset'
+[2020.10.04-15.38.36:370][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_4A6E3AF954FEE8E9C1B47F99F4E63C6C6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_4.uasset'
+[2020.10.04-15.38.36:510][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_4AC000E924ED77D5CEC85D681411941C3.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_4.uasset'
+[2020.10.04-15.38.36:521][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_5E4A7A7BD4050A0EBEDF38C8D3611943F.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_5.uasset'
+[2020.10.04-15.38.36:670][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_53275094045C6837C4B900F9F65A3AA0C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_5.uasset'
+[2020.10.04-15.38.36:679][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_606F86608471290D43A483EBD836764A1.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_6.uasset'
+[2020.10.04-15.38.36:827][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_6657742F740B40A2963BB10842BF88A4E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_6.uasset'
+[2020.10.04-15.38.36:838][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_79CC0B6B44A9918401B763F9DD65A8837.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_7.uasset'
+[2020.10.04-15.38.36:976][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_73E3DBA9549D3F2764DC50FB5A34B7787.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_7.uasset'
+[2020.10.04-15.38.36:985][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_8B15C595C4A9BAFC493E171AFCA01DD14.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_8.uasset'
+[2020.10.04-15.38.37:127][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_82894EB74445409E188A6D2A3EC15784C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_8.uasset'
+[2020.10.04-15.38.37:135][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_9BA9054BA4A25D8D1057056BDC1EC551A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_9.uasset'
+[2020.10.04-15.38.37:276][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_9B0909CF34211B17C6DA3FDA048577D91.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_9.uasset'
+[2020.10.04-15.38.37:285][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_108A94765A4EA24CF60BE263B3A1224D24.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_10.uasset'
+[2020.10.04-15.38.37:417][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_10B7C86D36459B46B0E8AA2EA346691187.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_10.uasset'
+[2020.10.04-15.38.37:434][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_116F988B6446FF14208BE80A88318F3899.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_11.uasset'
+[2020.10.04-15.38.37:578][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_11BFE0DA8C4F78A5A771CA1DB7987F8DC9.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_11.uasset'
+[2020.10.04-15.38.37:587][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_12FF2C1B0B497159CD191408BE78334677.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_12.uasset'
+[2020.10.04-15.38.37:738][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_123333C20D404A14289CA653BF75614C83.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_12.uasset'
+[2020.10.04-15.38.37:747][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_138C4314E648AFB571581DCAA550D8E34D.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_13.uasset'
+[2020.10.04-15.38.37:894][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_1391A1A04A435F7C0D5A07AC81B3E1379F.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_13.uasset'
+[2020.10.04-15.38.37:904][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_1464C2BED54E6D7D376E0FF0831532BE8F.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_14.uasset'
+[2020.10.04-15.38.38:044][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_14D74A37494683ACCA25FE939AB11595BC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_14.uasset'
+[2020.10.04-15.38.38:052][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_15B93E177A4110C49993A37E9A3A51DB87.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_15.uasset'
+[2020.10.04-15.38.38:193][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_155C48A7284C1572F7CE2E2F92A689BCBC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_15.uasset'
+[2020.10.04-15.38.38:202][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_16572D68A64B721E09733B57937F5126EF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_16.uasset'
+[2020.10.04-15.38.38:345][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_16620D95F547EB7BE9954506B057AFBF22.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_16.uasset'
+[2020.10.04-15.38.38:355][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_175430B21844E67657C0D8C8805A46489E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_17.uasset'
+[2020.10.04-15.38.38:494][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_170851F53B4239F1AAC98CC2AA8BA2C6B1.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_17.uasset'
+[2020.10.04-15.38.38:503][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_18629942E44558BBC9D76028B26F10B4D6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_18.uasset'
+[2020.10.04-15.38.38:656][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_18E03410C447BECFDBE734A685CF602F32.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_18.uasset'
+[2020.10.04-15.38.38:665][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_19FE5D5F294227EDB339BACAA08F693240.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_19.uasset'
+[2020.10.04-15.38.38:812][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_19ED5C04024DCD59A9DD73D0860510BD8A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_19.uasset'
+[2020.10.04-15.38.38:822][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_2070155F4341B8C84B3B42FAB01595E3D5.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_20.uasset'
+[2020.10.04-15.38.38:961][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_20C5668243484DD6006C9DD0B1EF73FE53.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_20.uasset'
+[2020.10.04-15.38.38:969][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_211E98580146781AB5B112F7B5000E6531.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_21.uasset'
+[2020.10.04-15.38.39:145][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_21716071D443F21B9D31A03ABFA5705B88.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_21.uasset'
+[2020.10.04-15.38.39:155][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_2200EDF2774CD98F22DDBADD94805CE40A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_22.uasset'
+[2020.10.04-15.38.39:362][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_22F1384A3A4091E8D9E79A3FA387406C77.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_22.uasset'
+[2020.10.04-15.38.39:373][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_23240E1610488AAB9FC7F5DE90CEED746E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_23.uasset'
+[2020.10.04-15.38.39:524][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_23B189812E45C56FCE71B12DB0D12FFFDB.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_23.uasset'
+[2020.10.04-15.38.39:533][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_2422B0EEE84946E88251706288175B3403.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_24.uasset'
+[2020.10.04-15.38.39:679][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_244D6FC6254E2A3438E99122881424D108.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_24.uasset'
+[2020.10.04-15.38.39:689][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_254C0F2A4543AA09ED5D573D929889F348.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_25.uasset'
+[2020.10.04-15.38.39:841][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_25BAFB775344FA7750B3F40F9EB5791B0C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_25.uasset'
+[2020.10.04-15.38.39:851][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_265579BC7748FA2EE8F933A793B7D55E72.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_26.uasset'
+[2020.10.04-15.38.40:020][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_26866EEBFD4C7ED617D226B9A0BA56DB26.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_26.uasset'
+[2020.10.04-15.38.40:028][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_2748A0BB194C8FC2DC1A774AA77A330AFC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_27.uasset'
+[2020.10.04-15.38.40:164][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_274B0E4E9344C133C813F0069C41061C0E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_27.uasset'
+[2020.10.04-15.38.40:174][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_283FFE6CCF44FC5846A7FE5D931A080B39.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_28.uasset'
+[2020.10.04-15.38.40:314][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_28C2C5638D45BF61EA957EC3AB5C65247A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_28.uasset'
+[2020.10.04-15.38.40:324][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_293390A13F4CD109A958E3F39235230EF0.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_29.uasset'
+[2020.10.04-15.38.40:475][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_290A6F351D40BAF4B1B5E985A42DC05949.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_29.uasset'
+[2020.10.04-15.38.40:484][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_30C112743047F9C71C7A4CCE82D5E714BF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_30.uasset'
+[2020.10.04-15.38.40:630][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_30BA14E6624A2FD99BEFBF979627045607.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_30.uasset'
+[2020.10.04-15.38.40:641][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_31652053EA4A6D146481ABEDB73F0AF25C.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_31.uasset'
+[2020.10.04-15.38.40:819][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_31C9BEC08144B12E480E3C6CA4DBB2B8DB.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_31.uasset'
+[2020.10.04-15.38.40:829][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_32429F358E496938E18BE098A6043B6D4E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_32.uasset'
+[2020.10.04-15.38.40:980][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_32DC1C4E62427915CCF85581B98FD362CF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_32.uasset'
+[2020.10.04-15.38.40:988][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_3308CEFD664B1493D573A65C8DE6CC6F20.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_33.uasset'
+[2020.10.04-15.38.41:132][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_3377686F35469B5E240DF1EAACE3BBC482.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_33.uasset'
+[2020.10.04-15.38.41:141][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_34CF6EDEA448A855CC7A00ADA5689FB5DC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_34.uasset'
+[2020.10.04-15.38.41:293][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_34A8A607894F5386D2410D95946CC83825.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_34.uasset'
+[2020.10.04-15.38.41:302][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_35BD677E0B42F2A921CD72C582BA951268.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_35.uasset'
+[2020.10.04-15.38.41:450][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_35E6F73A6D462D31860CB3AF8CD2B0CA88.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_35.uasset'
+[2020.10.04-15.38.41:459][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_36A1860CEB4B0BC7F13C0DDC9CC935F5EE.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_36.uasset'
+[2020.10.04-15.38.41:598][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_361D6C97B3407665A69505808841CCE211.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_36.uasset'
+[2020.10.04-15.38.41:607][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_3737918DDB4C595A3233A257B8B42557DA.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_37.uasset'
+[2020.10.04-15.38.41:773][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_37C91F35A54675BC5028E98DA35CE8E783.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_37.uasset'
+[2020.10.04-15.38.41:782][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_381EC034034E7A8864CC1860976E295369.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_38.uasset'
+[2020.10.04-15.38.41:932][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_3822F779AA4622F270B6A669AD005FF968.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_38.uasset'
+[2020.10.04-15.38.41:942][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_39A4FCF5D1499B102E572631811864C4BF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_39.uasset'
+[2020.10.04-15.38.42:094][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_39E1EBD24B46BFA6B1E05D0C865D8D5F8A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_39.uasset'
+[2020.10.04-15.38.42:102][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_406542149C461E1426502219B8D43424A7.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_40.uasset'
+[2020.10.04-15.38.42:259][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_406804408943C625CBAE23689BC788029A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_40.uasset'
+[2020.10.04-15.38.42:268][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_413794B96246B9EBE523D8D18360302CF3.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_41.uasset'
+[2020.10.04-15.38.42:416][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_416FA9609D44A42286212D6EAE74FE4D3A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_41.uasset'
+[2020.10.04-15.38.42:425][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_421D2330774D1ED9E8C10577A4D4C40ECC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_42.uasset'
+[2020.10.04-15.38.42:623][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_42122CCD964DF7A9039A3874AFF1846A27.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_42.uasset'
+[2020.10.04-15.38.42:631][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_43A91EB81D449EA49B002A148AA5B35DFF.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_43.uasset'
+[2020.10.04-15.38.42:782][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_43A991EEB148EB85CFCA3A0E871E78542F.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_43.uasset'
+[2020.10.04-15.38.42:793][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_44A055FF244006E6F9C00868ADF5714AD9.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_44.uasset'
+[2020.10.04-15.38.42:944][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_448577733A4B0F6C5CF55D5088BBC86E40.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_44.uasset'
+[2020.10.04-15.38.42:952][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_45415A67CE4B9A491B747B9485B098B499.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_45.uasset'
+[2020.10.04-15.38.43:099][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_454D22EF9B4DE40966EC10FE99124E0037.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_45.uasset'
+[2020.10.04-15.38.43:109][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_461EF95B794D15A3964076C384779D2AF6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_46.uasset'
+[2020.10.04-15.38.43:249][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_46122658154AA117D23D65ACBB35FFA610.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_46.uasset'
+[2020.10.04-15.38.43:260][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_47AE0BDDAC4869BBBD59F2FC804D8FADE6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_47.uasset'
+[2020.10.04-15.38.43:410][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_47239E60884087D259FD193B9C79CC122D.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_47.uasset'
+[2020.10.04-15.38.43:419][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_489BD9B2984BF9DBEAB5314792E5812AC3.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_48.uasset'
+[2020.10.04-15.38.43:574][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_4812A6429F44FF8F204AEB7093A9DD7244.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_48.uasset'
+[2020.10.04-15.38.43:583][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_493C8320AD42A2B478DBBE7090EE36BFBA.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_49.uasset'
+[2020.10.04-15.38.43:749][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_4906A7BCE24B04045EF35A2A90BCFE4A1E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_49.uasset'
+[2020.10.04-15.38.43:760][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_50DFC12FF3415CE616D03C829E0CDEC51D.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_50.uasset'
+[2020.10.04-15.38.43:899][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_50F81797D54C809D36CE4E29A5AAB1C17A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_50.uasset'
+[2020.10.04-15.38.43:910][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_51EEBA771A44CA0CC77323F7BEEF1E02EC.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_51.uasset'
+[2020.10.04-15.38.44:064][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_518A7887BE440B257DCDCE8094B634DC0A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_51.uasset'
+[2020.10.04-15.38.44:072][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_52C1F3A5E64803AF0F82D158B4DAEF59E9.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_52.uasset'
+[2020.10.04-15.38.44:216][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_52F1E44255441542A6DE5EF592425962FD.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_52.uasset'
+[2020.10.04-15.38.44:224][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_538BD16AE541214E00E2D361BABEDF8BF4.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_53.uasset'
+[2020.10.04-15.38.44:367][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_53EFF130E04D49BC975F004FBA81FAA995.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_53.uasset'
+[2020.10.04-15.38.44:377][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_54C6DCFEDD4455F673FD9894B6385991E6.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_54.uasset'
+[2020.10.04-15.38.44:536][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_544A7D7B9545B06EE4438E97919630BB24.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_54.uasset'
+[2020.10.04-15.38.44:545][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_55BF99562C499854986A2370B5A09AA78E.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_55.uasset'
+[2020.10.04-15.38.44:695][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_55DBC6F1E64A44FE588354E28200833296.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_55.uasset'
+[2020.10.04-15.38.44:703][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_56A9014BEE428B0DE9C0FC42B8124689A4.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_56.uasset'
+[2020.10.04-15.38.44:851][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_56EE259FA44CC86B8ECE0F9E9FA317F376.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_56.uasset'
+[2020.10.04-15.38.44:860][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_5774CCFF8943C1F624C29053833A172267.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_57.uasset'
+[2020.10.04-15.38.45:001][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_576D281E204B8BAAC589150EBEF04CB4DA.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_57.uasset'
+[2020.10.04-15.38.45:010][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_58397BC2A149A34098DCED42AFEB5878B2.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_58.uasset'
+[2020.10.04-15.38.45:150][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_5878DA55A746BA713B65E09E9577280CD4.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_58.uasset'
+[2020.10.04-15.38.45:160][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_5974BEC4EE4F70C677B88B939BF5FE780A.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/Sleep/SleepingKirby_6x10_Sprite_59.uasset'
+[2020.10.04-15.38.45:324][226]LogSavePackage: Moving '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Saved/SleepingKirby_6x10_Sprite_599EC590F84B30F35A4FC1719DB0B7B260.tmp' to '../../../../../../Koulu/Github repository/Pelikehityksen perusteet/PP2020/Content/Sprites/SleepingKirby_6x10_Sprite_59.uasset'
+[2020.10.04-15.38.59:198][226]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.04-15.38.59:198][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_0.SleepingKirby_6x10_Sprite_0
+[2020.10.04-15.38.59:198][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_0.SleepingKirby_6x10_Sprite_0
+[2020.10.04-15.38.59:198][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_1.SleepingKirby_6x10_Sprite_1
+[2020.10.04-15.38.59:198][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_1.SleepingKirby_6x10_Sprite_1
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_2.SleepingKirby_6x10_Sprite_2
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_2.SleepingKirby_6x10_Sprite_2
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_3.SleepingKirby_6x10_Sprite_3
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_3.SleepingKirby_6x10_Sprite_3
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_4.SleepingKirby_6x10_Sprite_4
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_4.SleepingKirby_6x10_Sprite_4
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_5.SleepingKirby_6x10_Sprite_5
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_5.SleepingKirby_6x10_Sprite_5
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_6.SleepingKirby_6x10_Sprite_6
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_6.SleepingKirby_6x10_Sprite_6
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_7.SleepingKirby_6x10_Sprite_7
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_7.SleepingKirby_6x10_Sprite_7
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_8.SleepingKirby_6x10_Sprite_8
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_8.SleepingKirby_6x10_Sprite_8
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_9.SleepingKirby_6x10_Sprite_9
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_9.SleepingKirby_6x10_Sprite_9
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_10.SleepingKirby_6x10_Sprite_10
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_10.SleepingKirby_6x10_Sprite_10
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_11.SleepingKirby_6x10_Sprite_11
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_11.SleepingKirby_6x10_Sprite_11
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_12.SleepingKirby_6x10_Sprite_12
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_12.SleepingKirby_6x10_Sprite_12
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_13.SleepingKirby_6x10_Sprite_13
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_13.SleepingKirby_6x10_Sprite_13
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_14.SleepingKirby_6x10_Sprite_14
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_14.SleepingKirby_6x10_Sprite_14
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_15.SleepingKirby_6x10_Sprite_15
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_15.SleepingKirby_6x10_Sprite_15
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_16.SleepingKirby_6x10_Sprite_16
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_16.SleepingKirby_6x10_Sprite_16
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_17.SleepingKirby_6x10_Sprite_17
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_17.SleepingKirby_6x10_Sprite_17
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_18.SleepingKirby_6x10_Sprite_18
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_18.SleepingKirby_6x10_Sprite_18
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_19.SleepingKirby_6x10_Sprite_19
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_19.SleepingKirby_6x10_Sprite_19
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_20.SleepingKirby_6x10_Sprite_20
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_20.SleepingKirby_6x10_Sprite_20
+[2020.10.04-15.38.59:199][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_21.SleepingKirby_6x10_Sprite_21
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_21.SleepingKirby_6x10_Sprite_21
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_22.SleepingKirby_6x10_Sprite_22
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_22.SleepingKirby_6x10_Sprite_22
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_23.SleepingKirby_6x10_Sprite_23
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_23.SleepingKirby_6x10_Sprite_23
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_24.SleepingKirby_6x10_Sprite_24
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_24.SleepingKirby_6x10_Sprite_24
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_25.SleepingKirby_6x10_Sprite_25
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_25.SleepingKirby_6x10_Sprite_25
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_26.SleepingKirby_6x10_Sprite_26
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_26.SleepingKirby_6x10_Sprite_26
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_27.SleepingKirby_6x10_Sprite_27
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_27.SleepingKirby_6x10_Sprite_27
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_28.SleepingKirby_6x10_Sprite_28
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_28.SleepingKirby_6x10_Sprite_28
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_29.SleepingKirby_6x10_Sprite_29
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_29.SleepingKirby_6x10_Sprite_29
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_30.SleepingKirby_6x10_Sprite_30
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_30.SleepingKirby_6x10_Sprite_30
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_31.SleepingKirby_6x10_Sprite_31
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_31.SleepingKirby_6x10_Sprite_31
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_32.SleepingKirby_6x10_Sprite_32
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_32.SleepingKirby_6x10_Sprite_32
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_33.SleepingKirby_6x10_Sprite_33
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_33.SleepingKirby_6x10_Sprite_33
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_34.SleepingKirby_6x10_Sprite_34
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_34.SleepingKirby_6x10_Sprite_34
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_35.SleepingKirby_6x10_Sprite_35
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_35.SleepingKirby_6x10_Sprite_35
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_36.SleepingKirby_6x10_Sprite_36
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_36.SleepingKirby_6x10_Sprite_36
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_37.SleepingKirby_6x10_Sprite_37
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_37.SleepingKirby_6x10_Sprite_37
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_38.SleepingKirby_6x10_Sprite_38
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_38.SleepingKirby_6x10_Sprite_38
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_39.SleepingKirby_6x10_Sprite_39
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_39.SleepingKirby_6x10_Sprite_39
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_40.SleepingKirby_6x10_Sprite_40
+[2020.10.04-15.38.59:200][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_40.SleepingKirby_6x10_Sprite_40
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_41.SleepingKirby_6x10_Sprite_41
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_41.SleepingKirby_6x10_Sprite_41
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_42.SleepingKirby_6x10_Sprite_42
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_42.SleepingKirby_6x10_Sprite_42
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_43.SleepingKirby_6x10_Sprite_43
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_43.SleepingKirby_6x10_Sprite_43
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_44.SleepingKirby_6x10_Sprite_44
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_44.SleepingKirby_6x10_Sprite_44
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_45.SleepingKirby_6x10_Sprite_45
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_45.SleepingKirby_6x10_Sprite_45
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_46.SleepingKirby_6x10_Sprite_46
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_46.SleepingKirby_6x10_Sprite_46
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_47.SleepingKirby_6x10_Sprite_47
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_47.SleepingKirby_6x10_Sprite_47
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_48.SleepingKirby_6x10_Sprite_48
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_48.SleepingKirby_6x10_Sprite_48
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_49.SleepingKirby_6x10_Sprite_49
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_49.SleepingKirby_6x10_Sprite_49
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_50.SleepingKirby_6x10_Sprite_50
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_50.SleepingKirby_6x10_Sprite_50
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_51.SleepingKirby_6x10_Sprite_51
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_51.SleepingKirby_6x10_Sprite_51
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_52.SleepingKirby_6x10_Sprite_52
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_52.SleepingKirby_6x10_Sprite_52
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_53.SleepingKirby_6x10_Sprite_53
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_53.SleepingKirby_6x10_Sprite_53
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_54.SleepingKirby_6x10_Sprite_54
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_54.SleepingKirby_6x10_Sprite_54
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_55.SleepingKirby_6x10_Sprite_55
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_55.SleepingKirby_6x10_Sprite_55
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_56.SleepingKirby_6x10_Sprite_56
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_56.SleepingKirby_6x10_Sprite_56
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_57.SleepingKirby_6x10_Sprite_57
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_57.SleepingKirby_6x10_Sprite_57
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_58.SleepingKirby_6x10_Sprite_58
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_58.SleepingKirby_6x10_Sprite_58
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Sleep/SleepingKirby_6x10_Sprite_59.SleepingKirby_6x10_Sprite_59
+[2020.10.04-15.38.59:201][226]LogContentValidation: Display: Validating ObjectRedirector /Game/Sprites/SleepingKirby_6x10_Sprite_59.SleepingKirby_6x10_Sprite_59
+[2020.10.04-15.39.24:530][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0044.png)
+[2020.10.04-15.39.24:586][641]LogTexture: Display: Building textures: 0044 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.26:381][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0045.png)
+[2020.10.04-15.39.26:409][641]LogTexture: Display: Building textures: 0045 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.28:200][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0046.png)
+[2020.10.04-15.39.28:227][641]LogTexture: Display: Building textures: 0046 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.30:020][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0047.png)
+[2020.10.04-15.39.30:047][641]LogTexture: Display: Building textures: 0047 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.31:803][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0048.png)
+[2020.10.04-15.39.31:828][641]LogTexture: Display: Building textures: 0048 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.33:589][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0049.png)
+[2020.10.04-15.39.33:616][641]LogTexture: Display: Building textures: 0049 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.35:390][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0050.png)
+[2020.10.04-15.39.35:416][641]LogTexture: Display: Building textures: 0050 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.37:175][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0051.png)
+[2020.10.04-15.39.37:200][641]LogTexture: Display: Building textures: 0051 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.38:960][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0052.png)
+[2020.10.04-15.39.38:986][641]LogTexture: Display: Building textures: 0052 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.40:761][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0053.png)
+[2020.10.04-15.39.40:788][641]LogTexture: Display: Building textures: 0053 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.42:546][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0054.png)
+[2020.10.04-15.39.42:581][641]LogTexture: Display: Building textures: 0054 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.44:347][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0055.png)
+[2020.10.04-15.39.44:372][641]LogTexture: Display: Building textures: 0055 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.46:133][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0056.png)
+[2020.10.04-15.39.46:160][641]LogTexture: Display: Building textures: 0056 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.47:917][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0057.png)
+[2020.10.04-15.39.47:942][641]LogTexture: Display: Building textures: 0057 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.49:719][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0058.png)
+[2020.10.04-15.39.49:746][641]LogTexture: Display: Building textures: 0058 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.51:521][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0059.png)
+[2020.10.04-15.39.51:548][641]LogTexture: Display: Building textures: 0059 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.53:304][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0060.png)
+[2020.10.04-15.39.53:329][641]LogTexture: Display: Building textures: 0060 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.55:107][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0061.png)
+[2020.10.04-15.39.55:135][641]LogTexture: Display: Building textures: 0061 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.56:892][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0062.png)
+[2020.10.04-15.39.56:918][641]LogTexture: Display: Building textures: 0062 (AutoDXT, 1920X1080)
+[2020.10.04-15.39.58:694][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0063.png)
+[2020.10.04-15.39.58:721][641]LogTexture: Display: Building textures: 0063 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.00:511][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0064.png)
+[2020.10.04-15.40.00:536][641]LogTexture: Display: Building textures: 0064 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.02:313][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0065.png)
+[2020.10.04-15.40.02:338][641]LogTexture: Display: Building textures: 0065 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.04:097][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0066.png)
+[2020.10.04-15.40.04:123][641]LogTexture: Display: Building textures: 0066 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.05:899][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0067.png)
+[2020.10.04-15.40.05:924][641]LogTexture: Display: Building textures: 0067 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.07:685][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0068.png)
+[2020.10.04-15.40.07:711][641]LogTexture: Display: Building textures: 0068 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.09:486][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0069.png)
+[2020.10.04-15.40.09:513][641]LogTexture: Display: Building textures: 0069 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.11:287][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0070.png)
+[2020.10.04-15.40.11:313][641]LogTexture: Display: Building textures: 0070 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.13:072][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0071.png)
+[2020.10.04-15.40.13:099][641]LogTexture: Display: Building textures: 0071 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.14:873][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0072.png)
+[2020.10.04-15.40.14:901][641]LogTexture: Display: Building textures: 0072 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.16:674][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0073.png)
+[2020.10.04-15.40.16:702][641]LogTexture: Display: Building textures: 0073 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.18:477][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0074.png)
+[2020.10.04-15.40.18:504][641]LogTexture: Display: Building textures: 0074 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.20:277][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0075.png)
+[2020.10.04-15.40.20:305][641]LogTexture: Display: Building textures: 0075 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.22:063][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0025.png)
+[2020.10.04-15.40.22:089][641]LogTexture: Display: Building textures: 0025 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.23:848][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0026.png)
+[2020.10.04-15.40.23:876][641]LogTexture: Display: Building textures: 0026 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.25:633][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0027.png)
+[2020.10.04-15.40.25:659][641]LogTexture: Display: Building textures: 0027 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.27:416][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0028.png)
+[2020.10.04-15.40.27:445][641]LogTexture: Display: Building textures: 0028 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.29:202][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0029.png)
+[2020.10.04-15.40.29:230][641]LogTexture: Display: Building textures: 0029 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.31:003][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0030.png)
+[2020.10.04-15.40.31:029][641]LogTexture: Display: Building textures: 0030 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.32:787][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0031.png)
+[2020.10.04-15.40.32:812][641]LogTexture: Display: Building textures: 0031 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.34:590][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0032.png)
+[2020.10.04-15.40.34:616][641]LogTexture: Display: Building textures: 0032 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.36:375][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0033.png)
+[2020.10.04-15.40.36:402][641]LogTexture: Display: Building textures: 0033 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.38:176][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0034.png)
+[2020.10.04-15.40.38:203][641]LogTexture: Display: Building textures: 0034 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.39:978][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0035.png)
+[2020.10.04-15.40.40:003][641]LogTexture: Display: Building textures: 0035 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.41:797][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0036.png)
+[2020.10.04-15.40.41:823][641]LogTexture: Display: Building textures: 0036 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.43:597][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0037.png)
+[2020.10.04-15.40.43:622][641]LogTexture: Display: Building textures: 0037 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.45:382][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0038.png)
+[2020.10.04-15.40.45:408][641]LogTexture: Display: Building textures: 0038 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.47:167][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0039.png)
+[2020.10.04-15.40.47:193][641]LogTexture: Display: Building textures: 0039 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.48:952][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0040.png)
+[2020.10.04-15.40.48:979][641]LogTexture: Display: Building textures: 0040 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.50:738][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0041.png)
+[2020.10.04-15.40.50:764][641]LogTexture: Display: Building textures: 0041 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.52:538][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0042.png)
+[2020.10.04-15.40.52:565][641]LogTexture: Display: Building textures: 0042 (AutoDXT, 1920X1080)
+[2020.10.04-15.40.54:323][641]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Koulu\Peligrafiikan perusteet\Blender\RunKirbyAni\0043.png)
+[2020.10.04-15.40.54:350][641]LogTexture: Display: Building textures: 0043 (AutoDXT, 1920X1080)
+[2020.10.04-15.42.02:291][707]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.04-15.42.15:057][ 80]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.19:004][217]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.19:721][238]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.22:023][318]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.22:974][348]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.23:435][360]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.23:824][370]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.25:543][433]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.26:126][450]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.27:195][488]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.27:727][504]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.28:297][521]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.28:863][538]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.29:395][554]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.29:894][570]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.30:379][586]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.30:844][602]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.31:363][619]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.31:863][636]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.32:381][653]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.32:848][669]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.33:347][688]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.33:831][707]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.34:281][724]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.34:698][739]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.35:100][754]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.35:531][772]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.35:948][789]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.36:383][807]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.36:833][827]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.37:267][847]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.37:749][871]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.38:183][893]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.38:683][920]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.39:133][946]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.39:601][975]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.40:002][998]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.40:468][ 27]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.40:886][ 54]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.41:320][ 83]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.41:768][114]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.42:237][150]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.42:735][191]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.43:221][231]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.43:705][272]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.44:188][313]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.44:655][351]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.45:139][391]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.45:589][428]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.46:055][467]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.42.47:139][580]LogSlate: Window 'Extract sprites' being destroyed
+[2020.10.04-15.43.48:960][886]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/Run/0075_2.0075_2
+[2020.10.04-15.43.49:189][887]LogRenderer: Reallocating scene render targets to support 1844x992 Format 10 NumSamples 1 (Frame:1).
+[2020.10.04-15.43.59:249][ 76]LogSlate: Window '0075_2' being destroyed
+[2020.10.04-15.43.59:253][ 76]LogSlate: Window '0075_2' being destroyed
+[2020.10.04-15.43.59:254][ 76]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.10.04-15.43.59:254][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.04-15.44.45:808][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.04-15.44.49:286][499]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.04-15.45.55:890][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.04-15.45.57:597][927]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.04-15.45.57:858][927]LogUObjectGlobals: Force Deleting 102 Package(s):
+	Asset Name: /Game/Sprites/Run/0025.0025
+	Asset Name: /Game/Sprites/Run/0025_2.0025_2
+	Asset Name: /Game/Sprites/Run/0026.0026
+	Asset Name: /Game/Sprites/Run/0026_2.0026_2
+	Asset Name: /Game/Sprites/Run/0027.0027
+	Asset Name: /Game/Sprites/Run/0027_2.0027_2
+	Asset Name: /Game/Sprites/Run/0028.0028
+	Asset Name: /Game/Sprites/Run/0028_2.0028_2
+	Asset Name: /Game/Sprites/Run/0029.0029
+	Asset Name: /Game/Sprites/Run/0029_2.0029_2
+[2020.10.04-15.46.10:534][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.10:536][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0025.0025 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0025.0025:
+   PaperSprite /Game/Sprites/Run/0025_Sprite_0.0025_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.10:536][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0025, this package is now potentially corrupt
+[2020.10.04-15.46.11:645][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.11:647][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0026.0026 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0026.0026:
+   PaperSprite /Game/Sprites/Run/0026_Sprite_0.0026_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.11:647][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0026, this package is now potentially corrupt
+[2020.10.04-15.46.12:441][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.12:443][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0027.0027 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0027.0027:
+   PaperSprite /Game/Sprites/Run/0027_Sprite_0.0027_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.12:443][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0027, this package is now potentially corrupt
+[2020.10.04-15.46.13:054][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.13:056][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0028.0028 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0028.0028:
+   PaperSprite /Game/Sprites/Run/0028_Sprite_0.0028_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.13:056][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0028, this package is now potentially corrupt
+[2020.10.04-15.46.13:656][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.13:658][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0029.0029 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0029.0029:
+   PaperSprite /Game/Sprites/Run/0029_Sprite_0.0029_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.13:658][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0029, this package is now potentially corrupt
+[2020.10.04-15.46.14:207][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.14:209][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0030.0030 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0030.0030:
+   PaperSprite /Game/Sprites/Run/0030_Sprite_0.0030_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.14:209][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0030, this package is now potentially corrupt
+[2020.10.04-15.46.14:735][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.14:737][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0031.0031 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0031.0031:
+   PaperSprite /Game/Sprites/Run/0031_Sprite_0.0031_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.14:737][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0031, this package is now potentially corrupt
+[2020.10.04-15.46.16:240][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.16:242][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0032.0032 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0032.0032:
+   PaperSprite /Game/Sprites/Run/0032_Sprite_0.0032_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.16:242][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0032, this package is now potentially corrupt
+[2020.10.04-15.46.16:771][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.16:773][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0033.0033 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0033.0033:
+   PaperSprite /Game/Sprites/Run/0033_Sprite_0.0033_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.16:773][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0033, this package is now potentially corrupt
+[2020.10.04-15.46.17:274][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.17:276][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0034.0034 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0034.0034:
+   PaperSprite /Game/Sprites/Run/0034_Sprite_0.0034_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.17:276][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0034, this package is now potentially corrupt
+[2020.10.04-15.46.17:755][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.17:757][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0035.0035 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0035.0035:
+   PaperSprite /Game/Sprites/Run/0035_Sprite_0.0035_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.17:757][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0035, this package is now potentially corrupt
+[2020.10.04-15.46.18:206][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.18:208][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0036.0036 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0036.0036:
+   PaperSprite /Game/Sprites/Run/0036_Sprite_0.0036_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.18:208][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0036, this package is now potentially corrupt
+[2020.10.04-15.46.18:690][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.18:692][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0037.0037 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0037.0037:
+   PaperSprite /Game/Sprites/Run/0037_Sprite_0.0037_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.18:692][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0037, this package is now potentially corrupt
+[2020.10.04-15.46.19:125][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.19:127][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0038.0038 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0038.0038:
+   PaperSprite /Game/Sprites/Run/0038_Sprite_0.0038_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.19:127][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0038, this package is now potentially corrupt
+[2020.10.04-15.46.19:607][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.19:609][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0039.0039 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0039.0039:
+   PaperSprite /Game/Sprites/Run/0039_Sprite_0.0039_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.19:609][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0039, this package is now potentially corrupt
+[2020.10.04-15.46.20:106][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.20:109][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0040.0040 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0040.0040:
+   PaperSprite /Game/Sprites/Run/0040_Sprite_0.0040_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.20:109][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0040, this package is now potentially corrupt
+[2020.10.04-15.46.20:659][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.20:661][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0041.0041 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0041.0041:
+   PaperSprite /Game/Sprites/Run/0041_Sprite_0.0041_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.20:661][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0041, this package is now potentially corrupt
+[2020.10.04-15.46.21:157][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.21:160][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0042.0042 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0042.0042:
+   PaperSprite /Game/Sprites/Run/0042_Sprite_0.0042_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.21:160][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0042, this package is now potentially corrupt
+[2020.10.04-15.46.21:659][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.21:661][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0043.0043 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0043.0043:
+   PaperSprite /Game/Sprites/Run/0043_Sprite_0.0043_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.21:661][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0043, this package is now potentially corrupt
+[2020.10.04-15.46.22:144][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.22:146][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0044.0044 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0044.0044:
+   PaperSprite /Game/Sprites/Run/0044_Sprite_0.0044_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.22:146][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0044, this package is now potentially corrupt
+[2020.10.04-15.46.22:658][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.22:660][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0045.0045 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0045.0045:
+   PaperSprite /Game/Sprites/Run/0045_Sprite_0.0045_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.22:660][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0045, this package is now potentially corrupt
+[2020.10.04-15.46.23:160][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.23:162][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0046.0046 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0046.0046:
+   PaperSprite /Game/Sprites/Run/0046_Sprite_0.0046_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.23:162][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0046, this package is now potentially corrupt
+[2020.10.04-15.46.23:661][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.23:663][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0047.0047 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0047.0047:
+   PaperSprite /Game/Sprites/Run/0047_Sprite_0.0047_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.23:663][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0047, this package is now potentially corrupt
+[2020.10.04-15.46.30:176][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.30:178][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0048.0048 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0048.0048:
+   PaperSprite /Game/Sprites/Run/0048_Sprite_0.0048_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.30:178][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0048, this package is now potentially corrupt
+[2020.10.04-15.46.30:683][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.30:686][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0049.0049 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0049.0049:
+   PaperSprite /Game/Sprites/Run/0049_Sprite_0.0049_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.30:686][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0049, this package is now potentially corrupt
+[2020.10.04-15.46.31:234][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.31:236][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0050.0050 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0050.0050:
+   PaperSprite /Game/Sprites/Run/0050_Sprite_0.0050_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.31:237][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0050, this package is now potentially corrupt
+[2020.10.04-15.46.31:701][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.31:703][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0051.0051 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0051.0051:
+   PaperSprite /Game/Sprites/Run/0051_Sprite_0.0051_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.31:703][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0051, this package is now potentially corrupt
+[2020.10.04-15.46.32:168][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.32:170][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0052.0052 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0052.0052:
+   PaperSprite /Game/Sprites/Run/0052_Sprite_0.0052_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.32:170][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0052, this package is now potentially corrupt
+[2020.10.04-15.46.32:703][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.32:705][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0053.0053 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0053.0053:
+   PaperSprite /Game/Sprites/Run/0053_Sprite_0.0053_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.32:705][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0053, this package is now potentially corrupt
+[2020.10.04-15.46.33:185][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.33:187][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0054.0054 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0054.0054:
+   PaperSprite /Game/Sprites/Run/0054_Sprite_0.0054_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.33:187][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0054, this package is now potentially corrupt
+[2020.10.04-15.46.33:687][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.33:689][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0055.0055 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0055.0055:
+   PaperSprite /Game/Sprites/Run/0055_Sprite_0.0055_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.33:689][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0055, this package is now potentially corrupt
+[2020.10.04-15.46.34:169][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.34:172][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0056.0056 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0056.0056:
+   PaperSprite /Game/Sprites/Run/0056_Sprite_0.0056_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.34:172][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0056, this package is now potentially corrupt
+[2020.10.04-15.46.34:653][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.34:655][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0057.0057 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0057.0057:
+   PaperSprite /Game/Sprites/Run/0057_Sprite_0.0057_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.34:656][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0057, this package is now potentially corrupt
+[2020.10.04-15.46.35:134][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.35:136][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0058.0058 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0058.0058:
+   PaperSprite /Game/Sprites/Run/0058_Sprite_0.0058_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.35:137][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0058, this package is now potentially corrupt
+[2020.10.04-15.46.35:586][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.35:589][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0059.0059 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0059.0059:
+   PaperSprite /Game/Sprites/Run/0059_Sprite_0.0059_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.35:589][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0059, this package is now potentially corrupt
+[2020.10.04-15.46.36:019][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.36:022][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0060.0060 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0060.0060:
+   PaperSprite /Game/Sprites/Run/0060_Sprite_0.0060_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.36:022][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0060, this package is now potentially corrupt
+[2020.10.04-15.46.36:469][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.36:472][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0061.0061 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0061.0061:
+   PaperSprite /Game/Sprites/Run/0061_Sprite_0.0061_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.36:472][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0061, this package is now potentially corrupt
+[2020.10.04-15.46.36:921][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.36:923][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0062.0062 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0062.0062:
+   PaperSprite /Game/Sprites/Run/0062_Sprite_0.0062_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.36:923][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0062, this package is now potentially corrupt
+[2020.10.04-15.46.37:352][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.37:354][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0063.0063 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0063.0063:
+   PaperSprite /Game/Sprites/Run/0063_Sprite_0.0063_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.37:355][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0063, this package is now potentially corrupt
+[2020.10.04-15.46.37:768][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.37:771][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0064.0064 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0064.0064:
+   PaperSprite /Game/Sprites/Run/0064_Sprite_0.0064_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.37:771][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0064, this package is now potentially corrupt
+[2020.10.04-15.46.38:205][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.38:207][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0065.0065 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0065.0065:
+   PaperSprite /Game/Sprites/Run/0065_Sprite_0.0065_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.38:207][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0065, this package is now potentially corrupt
+[2020.10.04-15.46.38:638][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.38:641][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0066.0066 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0066.0066:
+   PaperSprite /Game/Sprites/Run/0066_Sprite_0.0066_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.38:641][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0066, this package is now potentially corrupt
+[2020.10.04-15.46.39:090][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.39:092][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0067.0067 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0067.0067:
+   PaperSprite /Game/Sprites/Run/0067_Sprite_0.0067_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.39:092][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0067, this package is now potentially corrupt
+[2020.10.04-15.46.39:523][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.39:525][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0068.0068 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0068.0068:
+   PaperSprite /Game/Sprites/Run/0068_Sprite_0.0068_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.39:525][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0068, this package is now potentially corrupt
+[2020.10.04-15.46.39:974][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.39:976][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0069.0069 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0069.0069:
+   PaperSprite /Game/Sprites/Run/0069_Sprite_0.0069_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.39:976][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0069, this package is now potentially corrupt
+[2020.10.04-15.46.40:408][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.40:410][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0070.0070 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0070.0070:
+   PaperSprite /Game/Sprites/Run/0070_Sprite_0.0070_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.40:410][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0070, this package is now potentially corrupt
+[2020.10.04-15.46.40:838][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.40:840][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0071.0071 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0071.0071:
+   PaperSprite /Game/Sprites/Run/0071_Sprite_0.0071_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.40:840][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0071, this package is now potentially corrupt
+[2020.10.04-15.46.41:239][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.41:241][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0072.0072 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0072.0072:
+   PaperSprite /Game/Sprites/Run/0072_Sprite_0.0072_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.41:241][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0072, this package is now potentially corrupt
+[2020.10.04-15.46.41:608][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.41:610][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0073.0073 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0073.0073:
+   PaperSprite /Game/Sprites/Run/0073_Sprite_0.0073_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.41:610][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0073, this package is now potentially corrupt
+[2020.10.04-15.46.42:007][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.42:009][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0074.0074 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0074.0074:
+   PaperSprite /Game/Sprites/Run/0074_Sprite_0.0074_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.42:010][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0074, this package is now potentially corrupt
+[2020.10.04-15.46.42:426][927]LogSlate: Window 'Message' being destroyed
+[2020.10.04-15.46.42:429][927]Message dialog closed, result: Ok, title: Message, text: Texture2D /Game/Sprites/Run/0075.0075 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of Texture2D /Game/Sprites/Run/0075.0075:
+   PaperSprite /Game/Sprites/Run/0075_Sprite_0.0075_Sprite_0 (standalone) (1)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+
+
+[2020.10.04-15.46.42:429][927]LogObjectTools: Warning: ForceDeleteObject failed to delete 0075, this package is now potentially corrupt
+[2020.10.04-15.46.43:594][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.10.04-15.46.43:605][927]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.04-15.46.44:707][927]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.102 s
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/UnrealEd/Private/ObjectTools.cpp] [Line: 2891]
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 					Failed to unload all packages during ForceDeleteObjects - 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 					these packages are likely corrupt. Consider restarting the 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 					editor, noting which assets remain and then deleting them 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: 					from the file system manually: 
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0025
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0026
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0027
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0028
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0029
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0030
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0031
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0032
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0033
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0034
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0035
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0036
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0037
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0038
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0039
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0040
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0041
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0042
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0043
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0044
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0045
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0046
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0047
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0048
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0049
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0050
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0051
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0052
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0053
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0054
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0055
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0056
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0057
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0058
+[2020.10.04-15.46.44:707][927]LogOutputDevice: Error: /Game/Sprites/Run/0059
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0060
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0061
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0062
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0063
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0064
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0065
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0066
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0067
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0068
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0069
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0070
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0071
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0072
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0073
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0074
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: /Game/Sprites/Run/0075
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: Stack: 
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffac9dc3d8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffac2c52d9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffaba79e39 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffabd1d43e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffabd16dc7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc36e207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc36fb27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc3542dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35c69cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35af4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35a2392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3ca7f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3c95c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3caa609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3c917d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff8159f5c7d USER32.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff8159f5672 USER32.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3cab9c9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35d0d5d UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc356bdb7 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffabdaf00e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffac2b94dc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffac2b8916 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fff989a977e UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fff98ad7506 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fff98ab749e UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc3572dc1 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35ab54a UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fff98b01f9b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc354061b UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35ad561 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007fffc35a0f16 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3ca7c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3c95c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3caa609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3c917d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff8159f5c7d USER32.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff8159f5672 USER32.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ffff3cabb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff67c3d68c4 UE4Editor.exe!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff67c3eba7c UE4Editor.exe!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff67c3ebb5a UE4Editor.exe!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff67c3fe31d UE4Editor.exe!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff67c40145a UE4Editor.exe!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff815937bd4 KERNEL32.DLL!UnknownFunction []
+[2020.10.04-15.46.44:708][927]LogOutputDevice: Error: [Callstack] 0x00007ff81750ce51 ntdll.dll!UnknownFunction []
+[2020.10.04-15.46.44:709][927]LogOutputDevice: Error: 
